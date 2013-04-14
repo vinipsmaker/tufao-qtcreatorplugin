@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon.png</file>
+        <file>templates/data/application (0.x)/main.cpp</file>
+        <file>templates/data/application (0.x)/notfound.cpp</file>
+        <file>templates/data/application (0.x)/notfound.h</file>
+        <file>templates/data/application (0.x)/notfound.html</file>
+        <file>templates/data/application (0.x)/pluginreloader.cpp</file>
+        <file>templates/data/application (0.x)/pluginreloader.h</file>
+        <file>templates/data/application (0.x)/static.qrc</file>
+        <file>templates/data/application (1.x)/main.cpp</file>
+        <file>templates/data/application (1.x)/routes.json</file>
+        <file>templates/data/default (0.x)/main.cpp</file>
+        <file>templates/data/default (0.x)/mainhandler.cpp</file>
+        <file>templates/data/default (0.x)/mainhandler.h</file>
+        <file>templates/data/default (1.x)/main.cpp</file>
+        <file>templates/data/plugin (0.x)/plugin.cpp</file>
+        <file>templates/data/plugin (0.x)/plugin.h</file>
+        <file>templates/data/plugin (0.x)/requesthandler.cpp</file>
+        <file>templates/data/plugin (0.x)/requesthandler.h</file>
+        <file>templates/data/plugin (1.x)/plugin.cpp</file>
+        <file>templates/data/plugin (1.x)/plugin.h</file>
+        <file>templates/metadata/application (0.x)/motd</file>
+        <file>templates/metadata/application (0.x)/project.pro</file>
+        <file>templates/metadata/application (1.x)/motd</file>
+        <file>templates/metadata/application (1.x)/project.pro</file>
+        <file>templates/metadata/default (0.x)/motd</file>
+        <file>templates/metadata/default (0.x)/project.pro</file>
+        <file>templates/metadata/default (1.x)/motd</file>
+        <file>templates/metadata/default (1.x)/project.pro</file>
+        <file>templates/metadata/plugin (0.x)/motd</file>
+        <file>templates/metadata/plugin (0.x)/project.pro</file>
+        <file>templates/metadata/plugin (1.x)/motd</file>
+        <file>templates/metadata/plugin (1.x)/project.pro</file>
+    </qresource>
+</RCC>
