@@ -32,5 +32,12 @@
         <file>templates/metadata/plugin (0.x)/project.pro</file>
         <file>templates/metadata/plugin (1.x)/motd</file>
         <file>templates/metadata/plugin (1.x)/project.pro</file>
+        <file>templates/data/application (0.8+)/main.cpp</file>
+        <file>templates/data/application (0.8+)/notfound.cpp</file>
+        <file>templates/data/application (0.8+)/notfound.h</file>
+        <file>templates/data/application (0.8+)/notfound.html</file>
+        <file>templates/data/application (0.8+)/static.qrc</file>
+        <file>templates/metadata/application (0.8+)/motd</file>
+        <file>templates/metadata/application (0.8+)/project.pro</file>
     </qresource>
 </RCC>

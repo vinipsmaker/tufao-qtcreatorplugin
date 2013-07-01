@@ -1,0 +1,6 @@
+A full featured web application sketch. It provides:
+
+* Robust static file server
+* Plugin-based server, to allow change code at runtime
+
+This versions uses higher-level features available since Tufão 0.8.
