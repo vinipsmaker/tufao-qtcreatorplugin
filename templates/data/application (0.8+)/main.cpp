@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     //   ...using some handlers
 
     // to allow you change the running code without restart the application
-    Tufao::HttpPluginServer pluginServer("routes.conf");
+    Tufao::HttpPluginServer pluginServer("routes.conf", true);
     // to server static files under public folder
     Tufao::HttpFileServer fileServer("public");
     // to respond the remaining requests with a "404 - not found"
