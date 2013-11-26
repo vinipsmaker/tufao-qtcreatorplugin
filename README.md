@@ -45,3 +45,9 @@ the plugin, just copy the local installation.
 
 Open the QtCreator and follow the steps:
 File >> New File or Project >> Tufão
+
+# ChangeLog
+
+## 0.2.3
+
+ * Compatibility with QtCreator 2.8.x
