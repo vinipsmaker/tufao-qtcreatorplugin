@@ -168,7 +168,5 @@ permanent authorization for you to choose that version for the
 Library.</license>
     <description>a plugin for QtCreator IDE to easily create new Tufão projects</description>
     <url>https://github.com/vinipsmaker/tufao-qtcreatorplugin</url>
-    <dependencyList>
-        <dependency name=\"ProjectExplorer\" version=\"$$QTCREATOR_VERSION\"/>
-    </dependencyList>
+    $$dependencyList
 </plugin>

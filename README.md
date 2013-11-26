@@ -18,6 +18,11 @@ variables:
   * QTC_SOURCE: Must point to QtCreator source code.
   * QTC_BUILD: Must point to QtCreator build.
 
+## Folder name
+
+Since QtCreator 2.8, you need to name the folder containing the Tufão plugin as
+`tufao` or build will fail.
+
 ## Compiling
 
 To compile the plugin, run the commands as follow:
