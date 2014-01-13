@@ -48,6 +48,10 @@ File >> New File or Project >> Tufão
 
 # ChangeLog
 
+## 0.2.5
+
+ * Compatibility with QtCreator 3.0
+
 ## 0.2.3
 
  * Compatibility with QtCreator 2.8.x
