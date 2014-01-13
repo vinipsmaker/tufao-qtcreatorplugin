@@ -38,8 +38,7 @@ class TUFAO_EXPORT TufaoWizard : public Core::BaseFileWizard
 {
     Q_OBJECT
 public:
-    explicit TufaoWizard(const Core::BaseFileWizardParameters &parameters,
-                         QObject *parent = 0);
+    explicit TufaoWizard(QObject *parent = 0);
 
 protected:
     QWizard *createWizardDialog(QWidget *parent,

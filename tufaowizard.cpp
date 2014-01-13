@@ -26,6 +26,8 @@
 #include <QFileInfo>
 #include <QFile>
 
+#include "tufaoconstants.h"
+
 namespace Tufao {
 
 TufaoWizardDialog::TufaoWizardDialog(QWidget *parent, const Core::WizardDialogParameters &parameters) :
@@ -36,10 +38,18 @@ TufaoWizardDialog::TufaoWizardDialog(QWidget *parent, const Core::WizardDialogPa
                                " Tufão web server project."));
 }
 
-TufaoWizard::TufaoWizard(const Core::BaseFileWizardParameters &parameters,
-                         QObject *parent) :
-    Core::BaseFileWizard(parameters, parent)
+TufaoWizard::TufaoWizard(QObject *parent) :
+    Core::BaseFileWizard(parent)
 {
+    setWizardKind(ProjectWizard);
+    setIcon(QIcon(QString::fromUtf8(":/icon.png")));
+    setDisplayName(QString::fromUtf8("Tufão Web Server"));
+    setId(QString::fromUtf8(Tufao::Constants::TUFAO_WIZARD_ID));
+    setDescription(QString::fromUtf8("Creates a Tufão web server project."));
+    // QLatin1String(ProjectExplorer::Constants::QT_APPLICATION_WIZARD_CATEGORY)
+    setCategory(QString::fromUtf8(Constants::TUFAO_WIZARD_CATEGORY));
+    // QLatin1String(ProjectExplorer::Constants::QT_APPLICATION_WIZARD_CATEGORY_DISPLAY)
+    setDisplayCategory(trUtf8(Constants::TUFAO_WIZARD_TR_CATEGORY));
 }
 
 QWizard *TufaoWizard::createWizardDialog(QWidget *parent,
@@ -48,7 +58,6 @@ QWizard *TufaoWizard::createWizardDialog(QWidget *parent,
 {
     TufaoWizardDialog *wizard
             = new TufaoWizardDialog(parent, wizardDialogParameters);
-    setupWizard(wizard);
 
     wizard->addPage(new ProjectTypeWizardPage);
 

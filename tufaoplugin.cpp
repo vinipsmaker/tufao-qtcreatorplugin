@@ -17,7 +17,6 @@
 */
 
 #include "tufaoplugin.h"
-#include "tufaoconstants.h"
 #include "tufaowizard.h"
 
 #include <QtCore/QtPlugin>
@@ -38,16 +37,7 @@ bool TufaoPlugin::initialize(const QStringList &arguments, QString *errorString)
     Q_UNUSED(arguments)
     Q_UNUSED(errorString)
 
-    Core::BaseFileWizardParameters params(Core::IWizard::ProjectWizard);
-    params.setIcon(QIcon(QString::fromUtf8(":/icon.png")));
-    params.setDescription(QString
-                          ::fromUtf8("Creates a Tufão web server project."));
-    params.setDisplayName(QString::fromUtf8("Tufão Web Server"));
-    params.setId(QString::fromUtf8(Tufao::Constants::TUFAO_WIZARD_ID));
-    params.setCategory(QString::fromUtf8(Constants::TUFAO_WIZARD_CATEGORY));
-    params.setDisplayCategory(trUtf8(Constants::TUFAO_WIZARD_TR_CATEGORY));
-
-    addAutoReleasedObject(new TufaoWizard(params, this));
+    addAutoReleasedObject(new TufaoWizard(this));
     
     return true;
 }
