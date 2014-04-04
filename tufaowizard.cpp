@@ -38,8 +38,7 @@ TufaoWizardDialog::TufaoWizardDialog(QWidget *parent, const Core::WizardDialogPa
                                " Tufão web server project."));
 }
 
-TufaoWizard::TufaoWizard(QObject *parent) :
-    Core::BaseFileWizard(parent)
+TufaoWizard::TufaoWizard(QObject *parent)
 {
     setWizardKind(ProjectWizard);
     setIcon(QIcon(QString::fromUtf8(":/icon.png")));
