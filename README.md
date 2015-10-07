@@ -50,7 +50,7 @@ File >> New File or Project >> Tufão
 
 ## 0.2.6
 
- * Compability with QtCreator 3.1.0beta1
+ * Compatibility with QtCreator 3.1.0beta1
 
 ## 0.2.5
 
